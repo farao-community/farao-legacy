@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.farao-community.farao</groupId>
+        <artifactId>farao-core-legacy</artifactId>
+        <version>2.2.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>farao-ra-optimisation-legacy</artifactId>
+    <packaging>pom</packaging>
+    <name>Remedial Actions Optimisation</name>
+    <description>Remedial actions optimisation engine</description>
+
+    <modules>
+        <module>closed-optimisation-rao</module>
+        <module>ra-optimisation-api</module>
+    </modules>
+
+</project>
